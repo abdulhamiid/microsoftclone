@@ -43,7 +43,7 @@ nav img {
 .main-menu {
     flex: 1;
 }
-ul {
+nav ul {
     padding-top: 13px;
     display: flex;
 }
@@ -64,6 +64,9 @@ ul li a {
     width: 48%;
     color: #fff;
     padding: 140px 70px;
+}
+.showcase a {
+    font-weight: 500;
 }
 .btn {
     padding: 8px 15px;
@@ -117,4 +120,39 @@ h2 {
 .lg-h3 {
     font-weight: 500;
     font-size: 2rem;
+    color: #000;
+}
+.social-media {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+}
+.social-media img {
+    width: 30px;
+    margin-left: 20px;
+}
+footer {
+    background-color: #f4f4f4;
+}
+footer a{
+    color: #616161;
+    font-size: 11px;
+}
+footer h3 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #616161;
+}
+footer li {
+    padding-bottom: 15px;
+    padding-right: 100px;
+}
+footer li a {
+    padding-left: 0;
+}
+footer > div {
+    display: flex;
+}
+footer ul {
+    padding-top: 50px;
 }
