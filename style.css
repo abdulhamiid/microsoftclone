@@ -145,7 +145,6 @@ footer h3 {
 }
 footer li {
     padding-bottom: 15px;
-    padding-right: 100px;
 }
 footer li a {
     padding-left: 0;
@@ -154,6 +153,7 @@ footer > div {
     display: flex;
 }
 footer ul {
+    padding-right: 100px;
     padding-top: 50px;
 }
 .hamburger {
@@ -258,6 +258,9 @@ footer ul {
     .third-section a {
         width:max-content;
         padding: 0 10px;
+    }
+    footer ul {
+        padding-right: 60px;
     }
 }
 
