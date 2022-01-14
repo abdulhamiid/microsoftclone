@@ -156,12 +156,69 @@ footer > div {
 footer ul {
     padding-top: 50px;
 }
+.hamburger {
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    background-color: #000;
+    top: 30px;
+    right: 35px;
+    display: none;
+}
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    background-color: inherit;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    top: -7px;
+}
+.hamburger::after {
+    top: 7px;
+}
+.toggler {
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    right: 35px;
+    position: fixed;
+    background-color: #ccc;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
 @media(max-width: 768px) {
     .container {
         width: 90%;
     }
+    .hamburger {
+       display: block;
+    }
     .main-menu {
-        display: none;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ccc;
+        height: 100%;
+        width: 50%;
+        opacity: 0.9;
+        border-right: 1px solid #ccc;
+        transform: translateX(-500px);
+        transition: transform 0.5s ease;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .show {
+        transform: translate(0);
+    }
+    .main-menu li {
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    .main-menu li:last-child {
+        border: none;
     }
     .ccards {
         margin: 30px 0;
@@ -207,6 +264,12 @@ footer ul {
     }
     .container {
         width: 95%;
+    }
+    .hamburger {
+        right: 15px;
+    }
+    .toggler {
+        right: 15px;
     }
     footer > div {
         display: block;
