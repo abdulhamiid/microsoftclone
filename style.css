@@ -61,7 +61,7 @@ ul li a {
     background: url('img/web.jpeg') no-repeat center center/cover;
 }
 .showcase-content {
-    width: 48%;
+    width: 60%;
     color: #fff;
     padding: 140px 70px;
 }
@@ -156,3 +156,74 @@ footer > div {
 footer ul {
     padding-top: 50px;
 }
+@media(max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .main-menu {
+        display: none;
+    }
+    .ccards {
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+    .showcase-content {
+        width: 100%;
+        margin: auto;
+        padding: 50px 30px;
+    }
+    .social-media {
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+    }
+    .social-media img {
+        width: 20px;
+        margin-left: 15px;
+    }
+    .third-section {
+        display: flex;
+        flex-direction:column;
+        padding: 50px 30px;
+        height: auto;
+    }
+    .showcase {
+        height: auto;
+    }
+    #subject {
+        font-size: 1.1rem;
+    }
+    .third-section a {
+        width:max-content;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 568px) {
+    body {
+        font-size: 13px;
+    }
+    .container {
+        width: 95%;
+    }
+    footer > div {
+        display: block;
+    }
+    .lg-h3 {
+        font-size: 1.5rem;
+    }
+    .ccards {
+        display: block;
+    }
+    .cards {
+        padding: 20px 0;
+        border-bottom: #ccc solid 1px;
+    }
+    .showcase-content {
+        width: 100%;
+        margin: auto;
+        padding: 50px 30px;
+    }
+} 
