@@ -210,6 +210,9 @@ footer ul {
         padding: 10px;
         box-sizing: border-box;
     }
+    .no-scroll {
+        overflow: hidden;
+    }
     .show {
         transform: translate(0);
     }
