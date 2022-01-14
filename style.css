@@ -271,6 +271,12 @@ footer ul {
     .container {
         width: 95%;
     }
+    .hide {
+        display: none;
+    }
+    .right-nav {
+        padding-right: 70px;
+    }
     .hamburger {
         right: 15px;
     }
