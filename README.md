@@ -1,6 +1,6 @@
 # microsoftclone
 
-> This is Microsoft Official Home page Cloning
+> This Project is Microsoft Official Home page Cloning
 
 ## Built With
 
@@ -18,16 +18,9 @@ To get a local copy up and running follow these simple example steps.
 https://github.com/abdulhamiid/microsoftclone.git
 ```
 
-## Basic Setup
-### Install all dependencies
-
-```
-npm install
-```
-
 ### Deployment
 
-Run ```npm start```
+Open ```index.html``` in the browser
 
 ## Author
 
