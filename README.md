@@ -4,7 +4,7 @@
 
 ## Built With
 
-***- Html, CSS and JavaScript***
+***- Html, Linters, CSS and JavaScript***
 
 ## Live Demo
 [View project](https://abdulhamiid.github.io/microsoftclone/)
@@ -14,10 +14,21 @@ To get a local copy up and running follow these simple example steps.
 
 ### Clone this repository
 
+To clone this repo
 ```
-https://github.com/abdulhamiid/microsoftclone.git
+git clone https://github.com/abdulhamiid/microsoftclone.git
+```
+To access the cloned directory, run:
+```
+cd microsoftclone
 ```
 
+## Screenshotes
+![screenshot](./img/desktop1.PNG)
+![screenshot](./img/desktop2.PNG)
+![screenshot](./img/mobile1.PNG)
+![screenshot](./img/mobile2.PNG)
+![screenshot](./img/mobile3.PNG)
 ### Deployment
 
 Open ```index.html``` in the browser
